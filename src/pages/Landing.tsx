@@ -1,9 +1,9 @@
 // src/pages/Landing.tsx
 
 import React, { useState, useEffect } from 'react';
-import { CheckSquare, Clock, Target, Users, Star, User, Plus, Calendar, BarChart3 } from 'lucide-react';
+import { CheckSquare, Clock, Target, Star, User, Plus, Calendar, BarChart3 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { Container, Button, Card, CardContent, Badge, Header, Nav, Section, Span, H1, H2, P, Div, Footer } from '../lib/dev-container';
+import { Container, Button, Card, CardContent, Header, Nav, Section, Span, H1, H2, P, Div, Footer } from '../lib/dev-container';
 import { useAuth } from '../components/auth/AuthProvider';
 import type { ComponentRegistryId } from '../registry/componentRegistry';
 
